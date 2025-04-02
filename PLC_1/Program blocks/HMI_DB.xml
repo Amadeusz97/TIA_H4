@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V18" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="CS_Homing" Datatype="Bool" />
+    <Member Name="CS_PP_Reset" Datatype="Bool" />
+    <Member Name="CS_PL_Reset" Datatype="Bool" />
+    <Member Name="CS_TP_Reset" Datatype="Bool" />
+    <Member Name="CS_TL_Reset" Datatype="Bool" />
+    <Member Name="CS_Virtual_Reset" Datatype="Bool" />
+    <Member Name="CS_Reset" Datatype="Bool" />
+    <Member Name="CS_PP_Power" Datatype="Bool" />
+    <Member Name="CS_PL_Power" Datatype="Bool" />
+    <Member Name="CS_TP_Power" Datatype="Bool" />
+    <Member Name="CS_TL_Power" Datatype="Bool" />
+    <Member Name="CS_Virtual_Power" Datatype="Bool" />
+    <Member Name="CS_Power" Datatype="Bool" />
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <MemoryReserve>100</MemoryReserve>
+      <Name>HMI_DB</Name>
+      <Namespace />
+      <Number>15</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>
